@@ -3,7 +3,7 @@ import pandas as pd
 import joblib
 
 try:
-    model = joblib.load("Model/churn_model.pkl")
+    model = joblib.load("model/churn_model.pkl")
     model_loaded = True
 except Exception:
     model = None
